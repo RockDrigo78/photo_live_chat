@@ -1,0 +1,32 @@
+body {
+	background: #000000;
+	background: -webkit-linear-gradient(to right, #434343, #000000);
+	background: linear-gradient(to right, #434343, #000000);
+	font-family: 'Concert One', cursive;
+}
+
+.jumbotron {
+	background-image: url("../images/main/hamburg-3846525_1920-3.jpg");
+	background-size: cover;
+	max-height: 250px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#albumAndChatcontainer {
+	display: none;
+	position: relative;
+}
+
+#hide {
+	display: none;
+}
+
+#show {
+	display: contents;
+}
+
+.card {
+	border: 2px, solid, black;
+}
+

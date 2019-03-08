@@ -1,0 +1,33 @@
+{
+  "name": "photo_live_chat_rbd",
+  "version": "0.0.1",
+  "description": "live chat inside a photo album to comment about the photos that the users are looking at.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "live",
+    "chat",
+    "photos",
+    "comments",
+    "album",
+    "albums",
+    "photoalbum",
+    "nodejs",
+    "express",
+    "websockets",
+    "sockets",
+    "sockets.io",
+    "npm"
+  ],
+  "author": "Rodrigo Bazan Danino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "mysql": "^2.16.0",
+    "npm": "^6.7.0",
+    "socket.io": "^2.2.0"
+  }
+}
